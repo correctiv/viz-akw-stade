@@ -1,0 +1,95 @@
+.akw-slide, .akw-slider {
+  position: relative;
+  display: block;
+  /* width: 100%; */
+  /* height: 56.25%; */
+  width: 1170px;
+  height: 659px;
+}
+
+.akw-slide {
+  position: absolute;
+  opacity: 0;
+  /* visibility: hidden; */
+  -o-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.--akw-slide-visible {
+  opacity: 1;
+  visibility: visible;
+  background-color: white;
+  -o-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.akw-btn {
+  position: absolute;
+  background-color: white;
+  opacity: .5;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: gray;
+}
+
+.akw-btn span {
+  display: block;
+  margin-top: 50%;
+}
+
+#akw-slider__btn-next {
+  right: 0;
+}
+
+#akw-slider__btn-prev {
+  left: 0;
+}
+
+
+
+#akw-slide-1 {
+  background: url('1.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-2 {
+  background: url('2.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-3 {
+  background: url('3.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-4 {
+  background: url('4.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-5 {
+  background: url('5.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-6 {
+  background: url('6.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-7 {
+  background: url('7.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#akw-slide-8 {
+  background: url('8.jpg') no-repeat center;
+  background-size: cover;
+}
