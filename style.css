@@ -1,13 +1,38 @@
-.akw-slide, .akw-slider {
+.akw-slider {
   position: relative;
   display: block;
   /* width: 100%; */
   /* height: 56.25%; */
-  width: 1170px;
-  height: 659px;
+  width: 100%;
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  .akw-slider {
+    width: 730px;
+    height: 405px;
+  }
+}
+
+@media (min-width: 992px) {
+  .akw-slider {
+    width: 940px;
+    height: 529px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .akw-slider {
+    width: 1170px;
+    height: 642px;
+  }
 }
 
 .akw-slide {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   position: absolute;
   opacity: 0;
   /* visibility: hidden; */
